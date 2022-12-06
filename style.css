@@ -9,8 +9,14 @@ Author:      shl
   background-color: #140115;
 }
 
+/* fonte
+
+font-family: 'Caveat', cursive;
+font-family: 'Roboto Flex', sans-serif;
+*/
+
 @media (min-width: 600px) {
-  /* fotter*/
+  /* footer grid*/
   .footer {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -20,14 +26,40 @@ Author:      shl
     margin: 10rem, 2rem, 10rem, 2rem;
     max-width: none;
   }
+  /* footer links*/
+  .footer a {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+  }
 
-  /*
+  a:hover {
+    color: rgb(68, 18, 68);
+  }
+
   .footer_socials {
-justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    place-self: bottom;
+    gap: 1rem;
+    margin-bottom: 8rem;
   }
+
+  .facelogo {
+    width: 2rem;
+  }
+  .instalogo {
+    width: 2rem;
+  }
+  .spotlogo {
+    width: 2rem;
+  }
+  .ytlogo {
+    width: 2rem;
+  }
+
   .sig_logo {
-justify-content:end;
+    width: 3rem;
+    justify-content: end;
   }
-  */
 }

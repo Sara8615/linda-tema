@@ -13,6 +13,16 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css ">
 	<?php wp_head(); ?>
+
+
+	<!-- kode til google fonte
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+-->
+
+
 </head>
 
 <body <?php body_class(); ?> <?php oceanwp_schema_markup( 'html' ); ?>>

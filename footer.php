@@ -9,86 +9,89 @@
 
 	</main><!-- #main -->
 
+	<!-- siteoversigt -->
 	<div class= "footer">
 		
       <nav>
         <ul>
           <li>
-            <a href="">DISCOGRAFI</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy/">DISCOGRAFI</a>
           </li>
           <li>
-            <a href="">SOLIST</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">SOLIST</a>
           </li>
           <li>
-            <a href="">ALBUM</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">ALBUM</a>
           </li>
           <li>
-            <a href="">SINGLES</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">SINGLES</a>
           </li>
           <li>
-            <a href="">EP*ER</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">EP*ER</a>
           </li>
 		  <li>
-            <a href="">FEATURE</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">FEATURE</a>
           </li>
 		  <li>
-            <a href="">BAND</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-band/">BAND</a>
           </li>
           <li>
-            <a href="">SINGLER</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-band/">SINGLER</a>
           </li>
           <li>
-            <a href="">ALBUM</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-band/">ALBUM</a>
           </li>
           <li>
-            <a href="">GOSPEL</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-gospel/">GOSPEL</a>
           </li>
           <li>
-            <a href="">PRODUKTIONER</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-gospel/">PRODUKTIONER</a>
           </li>
 		  <li>
-            <a href="">BOOKING</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
           </li>
 		   <li>
-            <a href="">EVENTS</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/events/">EVENTS</a>
           </li>
 		   <li>
-            <a href="">COACHING</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
           </li>
 		   <li>
-            <a href="">EN TIME</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">EN TIME</a>
           </li>
 		   <li>
-            <a href="">1-1 SPARING</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">1-1 SPARING</a>
           </li>
 		   <li>
-            <a href="">KLIPPEKORT</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">KLIPPEKORT</a>
           </li>
 		   <li>
-            <a href="">KORCOACHING</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">KORCOACHING</a>
           </li>
 		   <li>
-            <a href="">BLOG</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
           </li>
 		   <li>
-            <a href="">AGE*ISM</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">AGE*ISM</a>
           </li> 
 		  <li>
-            <a href="">SEX*ISM</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">SEX*ISM</a>
           </li> 
 		  <li>
-            <a href="">BIOGRAFI</a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
           </li>
         </ul>
       </nav>
+	  <!-- media iconer-->
 	  <div class="footer_socials">
 	<a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src=""></a>
 	<a href="https://www.instagram.com/lindaandrewsmusic/"><img class="instalogo" src=""></a>
 	<a href="https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM"><img class="spotlogo" src=""></a>
 	<a href="https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w"><img class="ytlogo" src=""></a>
 </div>
+<!-- signatur logo-->
 <div class="sig_logo"> 
-	<a href="index.php"><img class="LA" src="signatur_linda.svg"></a>
+	<a href="https://sarahduarte.dk/kea/10_eksamen/forside/"><img class="LA" src="signatur_linda.svg"></a>
 </div>
 </div>
 
