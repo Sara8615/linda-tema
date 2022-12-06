@@ -5,3 +5,29 @@ Version:      1.0.0
 Description:  ocean child theme
 Author:      shl
  */
+.main {
+  background-color: #140115;
+}
+
+@media (min-width: 600px) {
+  /* fotter*/
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 10rem, 2rem, 10rem, 2rem;
+    max-width: none;
+  }
+
+  /*
+  .footer_socials {
+justify-content: center;
+    align-items: center;
+  }
+  .sig_logo {
+justify-content:end;
+  }
+  */
+}
