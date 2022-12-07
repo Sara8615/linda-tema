@@ -26,26 +26,38 @@
 
 </head>
 
-<body <?php body_class(); ?> <?php oceanwp_schema_markup( 'html' ); ?>>
+<body 
 
-	<?php wp_body_open(); ?>
+ <header>
+      
+      <nav>
+        <ul class="hovedmenu">
+          <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy/">DISKOGRAFI</a>
+          </li>
+          <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
+          </li>
+          <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
+          </li>
+		  <div class="logo">
+        <a href="https://sarahduarte.dk/kea/10_eksamen/forside/">
+          <img src="billeder/linda-logo.svg" alt="logo"/>
+        </a>
+      </div>
+          <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
+          </li>
+          <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/events/">EVENTS</a>
+          </li>
+		  <li>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-	<?php do_action( 'ocean_before_outer_wrap' ); ?>
 
-	<div id="outer-wrap" class="site clr">
 
-		<a class="skip-link screen-reader-text" href="#main"><?php oceanwp_theme_strings( 'owp-string-header-skip-link', 'oceanwp' ); ?></a>
-
-		<?php do_action( 'ocean_before_wrap' ); ?>
-
-		<div id="wrap" class="clr">
-
-			<?php do_action( 'ocean_top_bar' ); ?>
-
-			<?php do_action( 'ocean_header' ); ?>
-
-			<?php do_action( 'ocean_before_main' ); ?>
-
-			<main id="main" class="site-main clr"<?php oceanwp_schema_markup( 'main' ); ?> role="main">
-
-				<?php do_action( 'ocean_page_header' ); ?>

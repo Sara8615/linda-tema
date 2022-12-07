@@ -39,3 +39,6 @@ get_header(); ?>
 
   </article>
 </main>
+
+<?php
+get_footer();

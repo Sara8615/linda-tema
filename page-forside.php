@@ -11,7 +11,7 @@
 
 get_header(); ?>
 
-
+<main>
 <img class="forside_billede" src="" alt="">
 <div class="socials">
 	<a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src=""></a>
@@ -19,3 +19,7 @@ get_header(); ?>
 	<a href="https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM"><img class="spotlogo" src=""></a>
 	<a href="https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w"><img class="ytlogo" src=""></a>
 </div>
+
+</main>
+<?php
+get_footer();

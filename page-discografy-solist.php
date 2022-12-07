@@ -1,3 +1,17 @@
+
+<?php
+/**
+ * The template for displaying all pages.
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages and that other
+ * 'pages' on your WordPress site will use a different template.
+ *
+ * @package OceanWP WordPress theme
+ */
+
+get_header(); ?>
+
 <main>
   <div class="socials">
     <a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src="" /></a>
@@ -74,3 +88,6 @@
     </div>
   </article>
 </main>
+
+<?php
+get_footer();
