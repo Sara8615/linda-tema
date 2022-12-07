@@ -13,7 +13,7 @@
 	<div class= "footer">
 		
       <nav>
-        <ul>
+        <ul class="site-oversigt-liste">
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy/">DISCOGRAFI</a>
           </li>

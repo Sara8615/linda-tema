@@ -17,7 +17,7 @@ font-family: 'Roboto Flex', sans-serif;
 
 @media (min-width: 600px) {
   /* footer grid*/
-  ul {
+  .site-oversigt-liste {
     background-color: red;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
