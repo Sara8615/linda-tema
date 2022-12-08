@@ -83,12 +83,13 @@
         </ul>
       </nav>
 	  <!-- media iconer-->
-	  <div class="footer_socials">
-	<a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src=""></a>
-	<a href="https://www.instagram.com/lindaandrewsmusic/"><img class="instalogo" src=""></a>
-	<a href="https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM"><img class="spotlogo" src=""></a>
-	<a href="https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w"><img class="ytlogo" src=""></a>
-</div>
+	  <div class="socials">
+    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="facebook-icon"></a>
+    <a href=https://www.instagram.com/lindaandrewsmusic><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="facebook-icon"></a>
+    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="spotify-icon"></a>
+    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="youtube-icon"></a>
+    
+  </div>
 <!-- signatur logo-->
 <div class="sig_logo"> 
 	<a href="https://sarahduarte.dk/kea/10_eksamen/forside/"><img class="LA" src="signatur_linda.svg"></a>
