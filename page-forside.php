@@ -12,7 +12,7 @@
 get_header(); ?>
 
 <main>
-<img class="forside_billede" src="" alt="">
+<img class="forside_billede" src="billeder/landa-2.jpg" alt="forsidebillede">
 <div class="socials">
 	<a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src=""></a>
 	<a href="https://www.instagram.com/lindaandrewsmusic/"><img class="instalogo" src=""></a>
