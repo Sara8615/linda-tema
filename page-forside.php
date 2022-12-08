@@ -12,7 +12,8 @@
 get_header(); ?>
 
 <main>
-<img class="forside_billede" src="billeder/landa-2.jpg" alt="forsidebillede">
+	<img class="forsidebillede" src="<?php echo get_stylesheet_directory_uri() ?>/linda-2.jpg" alt="forsidebillede">
+	
 <div class="socials">
 	<a href="https://www.facebook.com/Misslindaandrews"><img class="facelogo" src=""></a>
 	<a href="https://www.instagram.com/lindaandrewsmusic/"><img class="instalogo" src=""></a>
