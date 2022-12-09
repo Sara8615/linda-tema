@@ -14,6 +14,7 @@
 
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css ">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-blog.css ">
 
 
 	<!-- kode til google fonte

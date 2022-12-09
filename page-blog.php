@@ -25,18 +25,22 @@ get_header(); ?>
     
     <p class="element_2"> de Finibus Bonorum et Malorum, written by Cicero in 45 BC Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
 </p>
-<img class="element_3" src="" alt="">
+<img class="element_3" src="<?php echo get_stylesheet_directory_uri() ?>/linda-lang.jpg" alt="billede">
 
     </article>
+
     <article class="blog_grid_2">
     <h2 class="element_4"> SEX*ISM</h2> 
-    
     <p class="element_5"> de Finibus Bonorum et Malorum, written by Cicero in 45 BC Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? 
 </p>
-<img class="element_6" src="" alt="">
-<img class="element_7" src="" alt="">
-<img class="element_8" src="" alt="">
 
+<div class="blog_img_grid">
+   
+    <img class="element_6" src="<?php echo get_stylesheet_directory_uri() ?>/blog-lille.jpg" alt="billede">
+    <img class="element_7" src="<?php echo get_stylesheet_directory_uri() ?>/blog-lille.jpg" alt="billede">
+    <img class="element_8" src="<?php echo get_stylesheet_directory_uri() ?>/linda-lang.jpg" alt="billede">
+
+</div>
     </article>
 </main>
 
