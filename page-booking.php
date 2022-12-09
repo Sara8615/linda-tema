@@ -15,34 +15,34 @@ get_header(); ?>
 
 <div class="booking-grid_1-1-1-1"> 
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="1:1-sparring"></a>
-<h3 class="option-titel">1:1 SPARING </h3>
-<h3 class="option-pris"> 750kr </h3>
-<p class="option beskrivelse"> En times personlig sparring ... </p>
+<h3 class="titel">1:1 SPARING </h3>
+<h3 class="pris"> 750kr </h3>
+<p class="beskrivelse"> En times personlig sparring ... </p>
 </div>
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Sangcoaching"></a>
-<h3 class="option-titel">SANGCOACHING</h3>
-<h3 class="option-pris"> 750kr </h3>
-<p class="option beskrivelse"> En times personlig sang 
+<h3 class="titel">SANGCOACHING</h3>
+<h3 class="pris"> 750kr </h3>
+<p class="beskrivelse"> En times personlig sang 
 og stemme coaching..</p>
 </div>
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Klippekort"></a>
-<h3 class="option-titel">KLIPPEKORT </h3>
-<h3 class="option-pris"> 7000kr </h3>
-<p class="option beskrivelse"> 10 timers personlig sang 
+<h3 class="titel">KLIPPEKORT </h3>
+<h3 class="pris"> 7000kr </h3>
+<p class="beskrivelse"> 10 timers personlig sang 
 og stemme coaching..</p>
 </div>
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Kor Coaching"></a>
-<h3 class="option-titel">KOR COACHING </h3>
-<h3 class="option-pris"> 1000kr </h3>
-<p class="option beskrivelse"> En times undervisning til hele dit kor..</p>
+<h3 class="titel">KOR COACHING </h3>
+<h3 class="pris"> 1000kr </h3>
+<p class="beskrivelse"> En times undervisning til hele dit kor..</p>
 </div>
 </div>
 
@@ -56,25 +56,25 @@ og stemme coaching..</p>
 
 <div class="booking-grid_1-1-1"> 
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="concert"></a>
-<h3 class="option-titel">CONCERT </h3>
-<h3 class="option-pris"> Spørg for pris </h3>
-<p class="option beskrivelse"> En times concert med mig og mit band... </p>
+<h3 class="titel">CONCERT </h3>
+<h3 class="pris"> Spørg for pris </h3>
+<p class="beskrivelse"> En times concert med mig og mit band... </p>
 </div>
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="foredrag"></a>
-<h3 class="option-titel">FOREDRAG</h3>
-<h3 class="option-pris"> Spørg for pris </h3>
-<p class="option beskrivelse"> En times foredrag om mit musikalske erhverv..</p>
+<h3 class="titel">FOREDRAG</h3>
+<h3 class="pris"> Spørg for pris </h3>
+<p class="beskrivelse"> En times foredrag om mit musikalske erhverv..</p>
 </div>
 
-<div class="option>
+<div class="option">
 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="personlig hilsen"></a>
-<h3 class="option-titel">PERSONLIG HILSEN </h3>
-<h3 class="option-pris"> Spørg for pris </h3>
-<p class="option beskrivelse"> Vi aftaler sammen hvilken sang + hilsen der være i videoen...</p>
+<h3 class="titel">PERSONLIG HILSEN </h3>
+<h3 class="pris"> Spørg for pris </h3>
+<p class="beskrivelse"> Vi aftaler sammen hvilken sang + hilsen der være i videoen...</p>
 </div>
 
 </div>
