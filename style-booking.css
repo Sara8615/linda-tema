@@ -35,10 +35,12 @@ Author:      shl
   .titel {
     justify-content: center;
     align-items: center;
+    font-weight: 700;
   }
   .pris {
     justify-content: center;
     align-items: center;
+    font-weight: 400;
   }
   .beskrivelse {
     justify-content: left;

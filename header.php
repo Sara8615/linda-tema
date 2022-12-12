@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style.css ">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-blog.css ">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-booking.css ">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-events.css ">
+  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-biografi.css ">
 
 
 	<!-- kode til google fonte
