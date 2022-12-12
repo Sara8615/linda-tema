@@ -1,0 +1,46 @@
+/* 
+Theme Name:    linda andrews Child Theme
+Template:    oceanwp
+Version:      1.0.0
+Description:  ocean child theme
+Author:      shl
+ */
+
+@media (min-width: 600px) {
+  /* grid til booking og coaching*/
+  .booking-grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none;
+  }
+  .booking-grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+  }
+
+  .option {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+  }
+  .titel {
+    justify-content: center;
+    align-items: center;
+  }
+  .pris {
+    justify-content: center;
+    align-items: center;
+  }
+  .beskrivelse {
+    justify-content: left;
+  }
+}
