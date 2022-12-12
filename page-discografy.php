@@ -61,7 +61,7 @@ get_header();
 function opretknapper(){
 
     categories.forEach(cat =>{
-        document.querySelector("#seniorholdmenu").innerHTML += `<button class="filter" data-seniorhold="${cat.id}">${cat.name}</button>`
+        document.querySelector("#seniorholdmenu").innerHTML += `<button class="filter" data-projekt="${cat.id}">${cat.name}</button>`
 
     })
 
@@ -90,7 +90,8 @@ function opretknapper(){
             const klon = skabelon.cloneNode(true).content;
             // klon.querySelector(".holdbillede").src = seniorhold.formular.guid;
             // klon.querySelector(".projekttitle").textContent = projekt.title.rendered;
-            klon.querySelector(".projekttitle").textContent = projekt.overskrift-singles;
+            klon.querySelector(".projekttitle").textContent = projekt.overskrift;
+            klon.querySelector(".projekttekst").textContent = projekt.tekst;
             klon.querySelector(".projektarticle").addEventListener("click", ()=> {location.href = projekt.link; })
             liste.appendChild(klon);
             }
