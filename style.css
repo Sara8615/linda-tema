@@ -5,6 +5,7 @@ Version:      1.0.0
 Description:  ocean child theme
 Author:      shl
  */
+
 img {
   max-width: 100%;
 }
@@ -157,3 +158,37 @@ font-family: 'Roboto Flex', sans-serif;
     place-self: right;
   }
 }
+
+/* @media (max-width: 600px) {
+  navbar og burgermenu 
+  .burger {
+    margin: 4% 4%;
+  }
+
+  .bar {
+    background-color: black;
+  }
+
+  li a h2 {
+    color: white;
+  }
+  .burger.active .bar:nth-child(2) {
+    opacity: 0;
+    background-color: black;
+  }
+
+  .burger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: black;
+  }
+  .burger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    background-color: black;
+  }
+
+  burgermenu slut */
+
+/* .hovedmenu {
+  display: none;
+} */
+/* } */

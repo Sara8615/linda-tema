@@ -36,8 +36,8 @@
 
  <header>
       
-      <nav>
-        <ul class="hovedmenu">
+      <nav class="navbar">
+        <ul class="hovedmenu nav-menu">
           <li>
             <a href="http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/discografy/">DISKOGRAFI</a>
           </li>
@@ -48,9 +48,10 @@
             <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
           </li>
 		  <div class="logo">
-        <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/linda-logo.svg" alt="linda-logo"></a>
-        
+            <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/linda-logo.svg" alt="linda-logo"></a>
+			
       </div>
+
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
           </li>
@@ -61,8 +62,26 @@
             <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
           </li>
         </ul>
+		<!-- <button class="burger">
+          <div class="bars">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </button> -->
       </nav>
+	  
     </header>
+
+	<!-- <script>
+		const burger = document.querySelector(".burger");
+		const menu = document.querySelector(".nav-menu");
+
+burger.addEventListener("click", () => {
+  burger.classList.toggle("active");
+  menu.classList.toggle("active");
+});
+	</script> -->
 
 
 
