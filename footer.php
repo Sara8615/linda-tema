@@ -111,7 +111,8 @@
   </div>
 <!-- signatur logo-->
 <div class="sig_logo"> 
-	<a href="https://sarahduarte.dk/kea/10_eksamen/forside/"><img class="LA" src="signatur_linda.svg"></a>
+  <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="la-sig" src="<?php echo get_stylesheet_directory_uri() ?>/lang-sig.svg" alt="signatur"></a>
+	
 </div>
 </div>
 
