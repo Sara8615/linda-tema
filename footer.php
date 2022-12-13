@@ -14,6 +14,7 @@
 		
       <nav>
         <ul class="site-oversigt-liste">
+          <div class="col">
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy/">DISCOGRAFI</a>
           </li>
@@ -31,7 +32,10 @@
           </li>
 		  <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">FEATURE</a>
+
           </li>
+          </div>
+          <div class="col">
 		  <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-band/">BAND</a>
           </li>
@@ -41,18 +45,25 @@
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-band/">ALBUM</a>
           </li>
+          </div>
+          <div class="col">
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-gospel/">GOSPEL</a>
           </li>
           <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-gospel/">PRODUKTIONER</a>
           </li>
+          </div>
+          <div class="col-4">
 		  <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
           </li>
 		   <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/events/">EVENTS</a>
+          
           </li>
+</div>
+<div class="col">
 		   <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
           </li>
@@ -67,7 +78,10 @@
           </li>
 		   <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">KORCOACHING</a>
+            
           </li>
+          </div>
+          <div class="col">
 		   <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
           </li>
@@ -76,18 +90,23 @@
           </li> 
 		  <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">SEX*ISM</a>
+
           </li> 
+</div>
+<div class="col">
 		  <li>
             <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
           </li>
+          </div>
         </ul>
+
       </nav>
 	  <!-- media iconer-->
-	  <div class="socials">
-    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="facebook-icon"></a>
-    <a href=https://www.instagram.com/lindaandrewsmusic><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="facebook-icon"></a>
-    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="spotify-icon"></a>
-    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/indset-icon" alt="youtube-icon"></a>
+	  <div class="footer-socials">
+    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/FB.svg" alt="facebook-icon"></a>
+    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/insta.svg" alt="instagram-icon"></a>
+    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/spotify.svg" alt="spotify-icon"></a>
+    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/youtube.svg" alt="youtube-icon"></a>
     
   </div>
 <!-- signatur logo-->
