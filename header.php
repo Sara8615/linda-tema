@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-booking.css ">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-events.css ">
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-biografi.css ">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri() ?>/style-discografy.css ">
+
 
 
 	<!-- kode til google fonte
