@@ -54,7 +54,7 @@ dolorem eum fugiat quo voluptas nulla pariatur?"
 </p>
 
 <div class="bio-grid"> 
-<img class="bio_billede_2"src="<?php echo get_stylesheet_directory_uri() ?>/linda-logo.svg" alt="linda-logo">
+<img class="bio_billede_2"src="<?php echo get_stylesheet_directory_uri() ?>/billeder/linda-logo.svg" alt="linda-logo">
 
 <p class="citat"> “NOGET CITAT 
 AGTIGT bla bla 
