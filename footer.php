@@ -9,9 +9,9 @@
 
 	</main><!-- #main -->
 
-	<!-- siteoversigt -->
+
 	<div class= "footer">
-		
+			<!-- siteoversigt 
       <nav>
         <ul class="site-oversigt-liste">
           <div class="col">
@@ -100,21 +100,36 @@
           </div>
         </ul>
 
-      </nav>
-	  <!-- media iconer-->
-	  <div class="footer-socials">
-    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/FB.svg" alt="facebook-icon"></a>
-    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/insta.svg" alt="instagram-icon"></a>
-    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/spotify.svg" alt="spotify-icon"></a>
-    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/youtube.svg" alt="youtube-icon"></a>
-    
-  </div>
-<!-- signatur logo-->
+      </nav> -->
+
+     <!-- signatur logo-->
 <div class="sig_logo"> 
   <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="la-sig" src="<?php echo get_stylesheet_directory_uri() ?>/lang-sig.svg" alt="signatur"></a>
 	
 </div>
+
+
+	 <!--media iconer-->
+	  <div class="footer-socials">
+    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
+    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-ig.svg" alt="instagram-icon"></a>
+    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-spot.svg" alt="spotify-icon"></a>
+    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-yt.svg" alt="youtube-icon"></a>
+    
+  </div>
+
+  <div class="footer p">
+    <p> LINDA ANDREWS </p>
+    <p> SANGERINDE </p>
+    <p> PERFORMER </p>
+    <p> SANG COACH </p>
+    <p> KORDIRIGENT</p>
 </div>
+
+<div class="email">
+  <p>Booking:mail@lindaandrews.dk</p>
+</div>
+</main>
 
 	<?php do_action( 'ocean_after_main' ); ?>
 

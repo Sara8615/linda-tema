@@ -48,7 +48,7 @@
             <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
           </li>
 		  <div class="logo">
-            <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/linda-logo.svg" alt="linda-logo"></a>
+            <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/orange-linda-logo.svg" alt="linda-logo"></a>
 			
       </div>
 

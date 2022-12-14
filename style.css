@@ -12,7 +12,7 @@ img {
 
 body {
   /*background-color: #f3a789;*/
-  background-color: #f77b4a;
+  background-color: white;
   /*background-color: #140115;*/
   margin: 0 auto;
   max-width: 1000px;
@@ -22,21 +22,21 @@ h2 {
   font-family: "Caveat", cursive;
   font-weight: 700;
   /*color: #291611;*/
-  color: white;
+  color: #bf5329;
   font-size: 2.5rem;
 }
 h3 {
   font-family: "Caveat", cursive;
   font-weight: 700;
   /*color: #291611;*/
-  color: white;
+  color: #bf5329;
   font-size: 2rem;
 }
 
 p {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 200;
-  color: white;
+  color: #bf5329;
   max-width: 65ch;
 }
 
@@ -72,7 +72,7 @@ font-family: 'Roboto Flex', sans-serif;
     margin-top: 2%;
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
-    color: white;
+    color: #bf5329;
   }
 
   /* centrere menu punkterne i headeren */
@@ -84,7 +84,7 @@ font-family: 'Roboto Flex', sans-serif;
     justify-content: center;
     text-align: center;
     margin-left: 20px;
-    color: white;
+    color: #bf5329;
   }
   a img {
     margin-left: -10px;
@@ -110,14 +110,14 @@ font-family: 'Roboto Flex', sans-serif;
     margin: 10rem, 2rem, 10rem, 2rem;
     max-width: none;
   }
-  /* footer links*/
+  /* footer links
   .footer a {
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
     font-size: 1rem;
-    color: white;
+    color: #BF5329;
   }
-  /* coloner til footer*/
+  /* coloner til footer
   .col {
     display: flex;
     flex-direction: column;
