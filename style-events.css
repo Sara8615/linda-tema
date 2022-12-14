@@ -9,7 +9,7 @@ Author:      shl
 @media (min-width: 600px) {
   .events {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: center;
     margin-left: auto;
@@ -18,10 +18,13 @@ Author:      shl
   }
 
   .dato {
+    border-right: solid 3px;
+    text-align: center;
   }
 
   .sted {
     max-width: 65ch;
+    text-align: center;
   }
 
   .udsolgt {

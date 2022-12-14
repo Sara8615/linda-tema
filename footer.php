@@ -9,9 +9,9 @@
 
 	</main><!-- #main -->
 
-	<!-- siteoversigt -->
-	<div class= "footer">
-		
+
+	<main class= "footer">
+			<!-- siteoversigt 
       <nav>
         <ul class="site-oversigt-liste">
           <div class="col">
@@ -31,7 +31,7 @@
             <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">EP*ER</a>
           </li>
 		  <li>
-            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/"></a>
+            <a href="https://sarahduarte.dk/kea/10_eksamen/discografy-solist/">FEATURE</a>
 
           </li>
           </div>
@@ -100,21 +100,39 @@
           </div>
         </ul>
 
-      </nav>
-	  <!-- media iconer-->
+      </nav> -->
+
+     <!-- signatur logo-->
+
+   <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/signatur_linda.svg" alt="linda-logo"></a>
+
+
+
+
+
+	 <!--media iconer-->
 	  <div class="footer-socials">
-    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/FB.svg" alt="facebook-icon"></a>
-    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/insta.svg" alt="instagram-icon"></a>
-    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/spotify.svg" alt="spotify-icon"></a>
-    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/billeder/youtube.svg" alt="youtube-icon"></a>
+    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-fb.svg" alt="facebook-icon"></a>
+    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-ig.svg" alt="instagram-icon"></a>
+    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-spot.svg" alt="spotify-icon"></a>
+    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-yt.svg" alt="youtube-icon"></a>
     
   </div>
-<!-- signatur logo-->
-<div class="sig_logo"> 
-  <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="la-sig" src="<?php echo get_stylesheet_directory_uri() ?>/lang-sig.svg" alt="signatur"></a>
-	
+
+   <!--titler-->
+  <div class="f-titler">
+    <p class="f-p"> LINDA ANDREWS </p>
+    <p class="f-p"> SANGERINDE </p>
+    <p class="f-p"> PERFORMER </p>
+    <p class="f-p"> SANG COACH </p>
+    <p class="f-p"> KORDIRIGENT</p>
 </div>
-</div>
+
+<!--kontakt-->
+
+  <p class="email">Booking:mail@lindaandrews.dk</p>
+
+</main>
 
 	<?php do_action( 'ocean_after_main' ); ?>
 
@@ -185,6 +203,6 @@ if ( 'fullscreen' === oceanwp_mobile_menu_style() ) {
 }
 ?>
 
-<?php wp_footer(); ?>
+<?php wp_footer(); ?> 
 </body>
 </html>
