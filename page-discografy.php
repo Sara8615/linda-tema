@@ -19,20 +19,56 @@ get_header();
 
 <article class="projektarticle">
     <!-- <h1 class="projekttitle"></h1> -->
-    <div class="punkter">
+
+
+<div class="singlegrid">
+<div class="singletekst">
+        <p class="singleover"></p>
+</div>
+
+<div class="singletekster">
     <p class="projekttekst"></p>
     <p class="projekttekst2"></p>
     <p class="projekttekst3"></p>
     <p class="projekttekst4"></p>
     <p class="projekttekst5"></p>
-     <p class="projekttekst6"></p>
-      <p class="projekttekst7"></p>
-      <p class="projekttekst8"></p>
-      <p class="projekttekst9"></p>
-      <p class="projekttekst10"></p>
-            <p class="projekttekst11"></p>
+    <p class="projekttekst6"></p>
+    <p class="projekttekst7"></p>
+    <p class="projekttekst8"></p>
+    <p class="projekttekst9"></p>
+    <p class="projekttekst10"></p>
+    <p class="projekttekst11"></p>
+</div>
+   </div>
+<div class="albumgrid">
 
+<div class="albumnoget">
+    <p class="albumover"></p>
+</div>
+
+
+<div class="albumtekst">
+    <p class="projekttekst13"></p>
+    <p class="projekttekst14"></p>
+    <p class="projekttekst15"></p>
+    <p class="projekttekst16"></p>
+    <p class="projekttekst17"></p>
+    <p class="projekttekst18"></p>
+    <p class="projekttekst19"></p>
+</div>
+</div>
+
+<div class="epgrid">
+    <div class="epoverflex">
+    <p class="epover"></p>
     </div>
+    <div class="eptekst">
+    <p class="projekttekst21"></p>
+    </div>
+</div>
+
+
+ 
 </article>
 
     <!-- <img class="holdbillede" src="" alt=""> -->
@@ -64,7 +100,7 @@ get_header();
     let projekter;
     let categories;
      // kategorien "alle" har id'en 20
-    let filterProjekter =18;
+    let filterProjekter =19;
     const caturl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/categories"
     const dburl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/projekt?per_page=100"
 
@@ -116,6 +152,7 @@ function opretknapper(){
             // klon.querySelector(".holdbillede").src = seniorhold.formular.guid;
             // klon.querySelector(".projekttitle").textContent = projekt.title.rendered;
             // klon.querySelector(".projekttitle").textContent = projekt.overskrift;
+            klon.querySelector(".singleover").textContent = projekt.singleover;
             klon.querySelector(".projekttekst").textContent = projekt.tekst;
             klon.querySelector(".projekttekst2").textContent = projekt.tekst2;
             klon.querySelector(".projekttekst3").textContent = projekt.tekst3;
@@ -126,9 +163,17 @@ function opretknapper(){
             klon.querySelector(".projekttekst8").textContent = projekt.tekst8;
             klon.querySelector(".projekttekst9").textContent = projekt.tekst9;
             klon.querySelector(".projekttekst10").textContent = projekt.tekst10;
-                        klon.querySelector(".projekttekst11").textContent = projekt.tekst11;
-
-
+            klon.querySelector(".projekttekst11").textContent = projekt.tekst11;
+            klon.querySelector(".albumover").textContent = projekt.albumover;
+            klon.querySelector(".projekttekst13").textContent = projekt.tekst12;
+            klon.querySelector(".projekttekst14").textContent = projekt.tekst13;
+            klon.querySelector(".projekttekst15").textContent = projekt.tekst14;
+            klon.querySelector(".projekttekst16").textContent = projekt.tekst15;
+            klon.querySelector(".projekttekst17").textContent = projekt.tekst16;
+            klon.querySelector(".projekttekst18").textContent = projekt.tekst17;
+            klon.querySelector(".projekttekst19").textContent = projekt.tekst18;
+            klon.querySelector(".epover").textContent = projekt.epoverskrift;
+            klon.querySelector(".projekttekst21").textContent = projekt.tekst19;
 
             klon.querySelector(".projektarticle").addEventListener("click", ()=> {location.href = projekt.link; })
             liste.appendChild(klon);

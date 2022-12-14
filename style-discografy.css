@@ -27,7 +27,7 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 1rem;
-  border: 1px solid white;
+  /* border: 1px solid white;s */
   text-align: center;
 }
 
@@ -45,13 +45,62 @@
 .punkter {
 }
 
-.projekttekst {
+/* .projekttekst {
   display: flex;
   justify-content: center;
-}
+} */
 
 .projekttekst8 {
   font-size: 1.8rem;
   text-decoration: underline;
   font-weight: 400;
+}
+
+.singlegrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.singletekst {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.singletekster {
+  text-align: left;
+}
+
+.albumgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.albumtekst {
+  text-align: left;
+}
+
+.epgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.eptekst {
+  text-align: left;
+}
+.epoverflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.albumnoget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
