@@ -23,14 +23,14 @@ get_header(); ?>
 <div class="booking-grid_1-1-1-1"> 
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="1:1-sparring"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="1:1-sparring">
 <h3 class="titel">1:1 SPARING </h3>
 <h3 class="pris"> 750kr </h3>
 <p class="beskrivelse"> En times personlig sparring ... </p>
 </div>
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Sangcoaching"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Sangcoaching">
 <h3 class="titel">SANGCOACHING</h3>
 <h3 class="pris"> 750kr </h3>
 <p class="beskrivelse"> En times personlig sang 
@@ -38,7 +38,7 @@ og stemme coaching..</p>
 </div>
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Klippekort"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Klippekort">
 <h3 class="titel">KLIPPEKORT </h3>
 <h3 class="pris"> 7000kr </h3>
 <p class="beskrivelse"> 10 timers personlig sang 
@@ -46,7 +46,7 @@ og stemme coaching..</p>
 </div>
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Kor Coaching"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="Kor Coaching">
 <h3 class="titel">KOR COACHING </h3>
 <h3 class="pris"> 1000kr </h3>
 <p class="beskrivelse"> En times undervisning til hele dit kor..</p>
@@ -58,21 +58,21 @@ og stemme coaching..</p>
 <div class="booking-grid_1-1-1"> 
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="concert"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="concert">
 <h3 class="titel">CONCERT </h3>
 <h3 class="pris"> Spørg for pris </h3>
 <p class="beskrivelse"> En times concert med mig og mit band... </p>
 </div>
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="foredrag"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="foredrag">
 <h3 class="titel">FOREDRAG</h3>
 <h3 class="pris"> Spørg for pris </h3>
 <p class="beskrivelse"> En times foredrag om mit musikalske erhverv..</p>
 </div>
 
 <div class="option">
-<a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="personlig hilsen"></a>
+<img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="personlig hilsen">
 <h3 class="titel">PERSONLIG HILSEN </h3>
 <h3 class="pris"> Spørg for pris </h3>
 <p class="beskrivelse"> Vi aftaler sammen hvilken sang + hilsen der være i videoen...</p>
@@ -82,5 +82,42 @@ og stemme coaching..</p>
 
 
 </main>
+ <template>
+      <article>
+        <img src="" alt="" class="billede" />
+        <h2 class="titel"></h2>
+        <p class="pris"></p>
+        <p class="kort beskrivelse"></p>
+        <p class="lang beskrivelse"></p>
+      </article>
+    </template>
+
+    <script>
+      const endpoint = "https://sarahduarte.dk/kea/10_eksamen/wp-json/wp/v2/option";
+      
+      async function hentData() {
+        const resspons = await fetch(endpoint);
+        const json = await resspons.json();
+        vis(json);
+      }
+
+      const main = document.querySelector("#holder");
+      const template = document.querySelector("template").content;
+
+      function vis(json) {
+        json.forEach((person) => {
+          console.log(person);
+          const klon = template.cloneNode(true);
+          klon.querySelector(".billede").src = "billede/" + person.billede;
+          klon.querySelector(".titel").textContent = person.fornavn + "" + person.efternavn;
+          klon.querySelector(".pris").textContent = person.email;
+          klon.querySelector(".kort beskrivelse").textContent = person.titel;
+          klon.querySelector(".lang beskrivelse").textContent = person.titel.renderen;
+          main.appendChild(klon);
+        });
+      }
+
+      hentData();
+    </script>
 <?php
 get_footer();
