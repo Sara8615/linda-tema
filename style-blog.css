@@ -9,9 +9,6 @@ Author:      shl
 main {
   margin: 30px;
 }
-img {
-  margin-bottom: 50px;
-}
 
 @media (min-width: 600px) {
   /* blog grid*/
