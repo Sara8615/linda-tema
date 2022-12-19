@@ -6,6 +6,27 @@ Description:  ocean child theme
 Author:      shl
  */
 
+.dato {
+  border-bottom: solid 2px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.2rem;
+  max-width: 30%;
+  margin-bottom: 6.25px;
+}
+
+.sted {
+  max-width: 65ch;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 12.5px;
+}
+
+.udsolgt {
+  margin-top: -20px;
+}
+
 @media (min-width: 600px) {
   .events {
     display: grid;
@@ -29,8 +50,6 @@ Author:      shl
   }
 
   .udsolgt {
-  }
-
-  .event-img {
+    margin-top: -20px;
   }
 }

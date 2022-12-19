@@ -120,13 +120,18 @@
   </div>
 
    <!--titler-->
-  <div class="f-titler">
+   <article class="f-titler">
+  <div class="f-titler-1">
     <p class="f-p"> LINDA ANDREWS </p>
     <p class="f-p"> SANGERINDE </p>
     <p class="f-p"> PERFORMER </p>
-    <p class="f-p"> SANG COACH </p>
-    <p class="f-p"> KORDIRIGENT</p>
 </div>
+
+<div class="f-titler-2">
+ <p class="f-p"> SANG COACH </p>
+    <p class="f-p"> KORDIRIGENT</p>
+    </div>
+</articler>
 
 <!--kontakt-->
 

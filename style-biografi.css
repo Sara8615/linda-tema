@@ -6,6 +6,16 @@ Description:  ocean child theme
 Author:      shl
  */
 
+.citat {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 25px;
+}
+.bio_overskrift {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
 @media (min-width: 600px) {
   .biografi {
     justify-content: center;
