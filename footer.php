@@ -104,7 +104,7 @@
 
      <!-- signatur logo-->
 <div class="footerlogocon">
-   <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo-footer" src="<?php echo get_stylesheet_directory_uri() ?>/signatur_linda.svg" alt="linda-logo"></a>
+   <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo-footer" src="<?php echo get_stylesheet_directory_uri() ?>/signatur-linda-brun.svg" alt="linda-logo"></a>
 </div>
 
 
