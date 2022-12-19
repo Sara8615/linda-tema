@@ -66,26 +66,12 @@
             <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
           </li>
         </ul>
-		<!-- <button class="burger">
-          <div class="bars">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </div>
-        </button> -->
+	
       </nav>
 	  
     </header>
 
-	<!-- <script>
-		const burger = document.querySelector(".burger");
-		const menu = document.querySelector(".nav-menu");
 
-burger.addEventListener("click", () => {
-  burger.classList.toggle("active");
-  menu.classList.toggle("active");
-});
-	</script> -->
 
 
 

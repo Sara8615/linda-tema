@@ -16,6 +16,7 @@ Author:      shl
     margin-left: auto;
     margin-right: auto;
     max-width: none;
+    gap: 1rem;
   }
   .booking-grid_1-1-1 {
     display: grid;
@@ -25,6 +26,8 @@ Author:      shl
     margin-left: auto;
     margin-right: auto;
     max-width: 70%;
+    gap: 1rem;
+    margin-top: 3rem;
   }
 
   .option {
@@ -37,7 +40,7 @@ Author:      shl
     align-items: center;
     text-align: center;
     font-weight: 700;
-    border-bottom: solid 3px #291611;
+    border-bottom: solid 1px #291611;
     margin: auto;
   }
 
@@ -52,4 +55,9 @@ Author:      shl
   .beskrivelse {
     justify-content: left;
   }
+}
+
+.serviceogsoc {
+  display: flex;
+  gap: 2rem;
 }
