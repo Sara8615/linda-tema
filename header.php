@@ -44,7 +44,7 @@
         <ul class="hovedmenu nav-menu">
 			
           <li class="limenu">
-            <a href="http://sarahduarte.dk.dk/kea/10_eksamen/discografy/">DISKOGRAFI</a>
+            <a href="http://sarahduarte.dk/kea/10_eksamen/discografy/">DISKOGRAFI</a>
           </li>
           <li   class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>

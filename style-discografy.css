@@ -1,36 +1,19 @@
-#seniorholdmenu {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-width: 500px;
-  gap: 1rem;
-}
 
-.filter {
-  border-bottom: solid 1px #bf5329;
-  background-color: white;
-  color: #bf5329;
-  font-size: 2rem;
-  border-radius: 10px;
-}
-
+/*
 .projektarticle {
   display: grid;
   /* grid-template-columns: 1fr 2fr; */
   margin-left: auto;
   margin-right: auto;
   gap: 1rem;
-  max-width: 500px;
+  /*max-width: 500px;
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 1rem;
   /* border: 1px solid white;s */
   text-align: center;
 }
-
+/*
 .projekttitle {
   display: flex;
   flex-direction: column;
@@ -44,23 +27,16 @@
 
 .punkter {
 }
-
+*/
 /* .projekttekst {
   display: flex;
   justify-content: center;
 } */
-
+/*
 .projekttekst8 {
   font-size: 1.8rem;
   text-decoration: underline;
   font-weight: 400;
-}
-
-.singlegrid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
-  padding: 10px;
 }
 
 .singletekst {
@@ -73,27 +49,25 @@
   text-align: left;
 }
 
-.albumgrid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
-  padding: 10px;
-}
-
 .albumtekst {
   text-align: left;
+  text-align: left;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2rem;
 }
-
-.epgrid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
-  padding: 10px;
-}
-
+/*
 .eptekst {
   text-align: left;
-}
+  text-align: left;
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2rem;
+}/*
 .epoverflex {
   display: flex;
   flex-direction: column;
@@ -103,4 +77,205 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+*/
+
+
+
+
+
+
+
+#seniorholdmenu {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  gap: 1rem;
+    border: none;
+}
+.filter {
+   border: none;
+  background-color: white;
+  color: #bf5329;
+    font-family: "Roboto Flex", sans-serif;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+
+.filter:active {
+   text-decoration: underline;
+}
+
+main {
+  margin: 12.5px;
+
+}
+
+.projektarticle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.singleover {
+  font-family: "Caveat", cursive;
+  border-bottom: solid 2px;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  max-width: 30%;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+  
+}
+.singletekster p {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2rem;
+  text-align: center;
+}
+.albumover {
+  font-family: "Caveat", cursive;
+  border-bottom: solid 2px;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  max-width: 30%;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+}
+.albumtekst p {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2rem;
+  text-align: center;
+}
+.epover {
+  font-family: "Caveat", cursive;
+  border-bottom: solid 2px;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  max-width: 30%;
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+}
+.eptekst p {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  /*color: #291611;*/
+  color: #bf5329;
+  font-size: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .projektarticle {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .singlegrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .albumgrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .epgrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+  .singleover {
+  
+    border-right: solid 3px;
+    border-bottom: none;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    font-size: 3rem;
+    margin-top: -30px;
+  }
+  .singletekster p {
+    font-size: 2.3rem;
+    max-width: 65ch;
+    text-align: center;
+  }
+  .albumover {
+    border-right: solid 3px;
+    border-bottom: none;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    font-size: 3rem;
+    top: 50%;
+   /* margin-top: -30px;*/
+  }
+  
+  .albumtekst p {
+    font-size: 2.3rem;
+       max-width: 65ch;
+    text-align: center;
+
+  }
+  .epover {
+    border-right: solid 3px;
+    border-bottom: none;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    font-size: 3rem;
+   /* margin-top: -30px;*/
+  }
+  .eptekst p {
+      font-size: 2.3rem;
+       max-width: 65ch;
+    text-align: center;
+  }
 }

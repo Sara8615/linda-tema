@@ -11,7 +11,8 @@
 
 get_header();
 ?>
-
+<main>
+<h1> DISCOGRAFI </h1>
 
 
 <template>
@@ -70,6 +71,8 @@ get_header();
 
  
 </article>
+</main>
+
 
     <!-- <img class="holdbillede" src="" alt=""> -->
 
@@ -94,7 +97,7 @@ get_header();
   <nav id="seniorholdmenu"></nav>
 
 <section id="seniorhold-oversigt"></section>
-  
+
  
 <script>
     let projekter;
