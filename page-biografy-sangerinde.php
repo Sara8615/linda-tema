@@ -13,7 +13,7 @@ get_header(); ?>
 
 <main> 
 
-
+<h1> BIOGRAFI </h1>
 <img class="bio_billede_1" src="<?php echo get_stylesheet_directory_uri() ?>/banner-top-bio.webp" alt="fullwidth-img">
 <div class="socials">
   
