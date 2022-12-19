@@ -120,18 +120,14 @@
   </div>
 
    <!--titler-->
-   <article class="f-titler">
-  <div class="f-titler-1">
-    <p class="f-p"> LINDA ANDREWS </p>
-    <p class="f-p"> SANGERINDE </p>
-    <p class="f-p"> PERFORMER </p>
-</div>
-
-<div class="f-titler-2">
- <p class="f-p"> SANG COACH </p>
-    <p class="f-p"> KORDIRIGENT</p>
+   <div class="f-titler">
+    <p class="f-p-1"> LINDA ANDREWS </p>
+    <p class="f-p-2"> SANGERINDE </p>
+    <p class="f-p-3"> PERFORMER </p>
+ <p class="f-p-4"> SANG COACH </p>
+    <p class="f-p-5"> KORDIRIGENT</p>
     </div>
-</articler>
+</div>
 
 <!--kontakt-->
 

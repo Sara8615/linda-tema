@@ -68,10 +68,10 @@ h1 {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 200;
   color: #291611;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   text-align: center;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-decoration: underline;
 }
 h2 {
@@ -146,18 +146,37 @@ p {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-}
-.f-titler-1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.f-titler-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.f-p {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
   color: #291611;
   font-size: 0.9rem;
+}
+
+.f-p-1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  color: #291611;
+}
+.f-p-2 {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+  color: #291611;
+}
+.f-p-3 {
+  grid-column: 5 / span 2;
+  grid-row: 1;
+  color: #291611;
+}
+.f-p-4 {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+  color: #291611;
+}
+.f-p-5 {
+  grid-column: 4 / span 2;
+  grid-row: 2;
+  color: #291611;
 }
 .email {
   justify-content: center;
@@ -211,7 +230,7 @@ font-family: 'Roboto Flex', sans-serif;
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -280,6 +299,7 @@ font-family: 'Roboto Flex', sans-serif;
     justify-content: right;
     align-items: flex-end;
     margin-top: 6.25px;
+    gap: 6.25px;
   }
 
   .socialsbooking {
@@ -332,7 +352,7 @@ font-family: 'Roboto Flex', sans-serif;
   }
 
   .facelogo {
-    width: 2rem;
+    width: 1.3rem;
   }
   .instalogo {
     width: 2rem;
@@ -363,10 +383,29 @@ font-family: 'Roboto Flex', sans-serif;
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-  }
-  .f-p {
     color: #291611;
     font-size: 1.2rem;
+  }
+
+  .f-p-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .f-p-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .f-p-3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .f-p-4 {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .f-p-5 {
+    grid-column: 5;
+    grid-row: 1;
   }
   .email {
     justify-content: center;

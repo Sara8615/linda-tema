@@ -10,9 +10,9 @@
 }
 
 .filter {
-  border: none;
+  border-bottom: solid 1px #bf5329;
   background-color: white;
-  color: black;
+  color: #bf5329;
   font-size: 2rem;
   border-radius: 10px;
 }

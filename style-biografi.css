@@ -7,9 +7,10 @@ Author:      shl
  */
 
 .citat {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   margin-top: 25px;
+  font-family: "Caveat", cursive;
 }
 .bio_overskrift {
   font-size: 1.4rem;
@@ -38,6 +39,7 @@ Author:      shl
   .citat {
     font-size: 3.2rem;
     font-weight: 700;
+    font-family: "Caveat", cursive;
   }
   .bio_billede_2 {
     margin-left: -25px;
