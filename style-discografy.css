@@ -45,6 +45,7 @@
   /* border: 1px solid black; */
   padding: 10px;
 }
+/*
 
 .singletekst {
   text-align: center;
@@ -62,7 +63,7 @@
   /* border: 1px solid black; */
   padding: 10px;
 }
-
+/*
 .albumtekst {
   text-align: left;
   text-align: left;
@@ -72,14 +73,14 @@
   color: #bf5329;
   font-size: 2rem;
 }
-
+/*
 .epgrid {
   display: grid;
   grid-template-columns: 1fr 2fr;
   /* border: 1px solid black; */
   padding: 10px;
 }
-
+/*
 .eptekst {
   text-align: left;
   text-align: left;
