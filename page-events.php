@@ -49,7 +49,7 @@ get_header(); ?>
       
     </div>
   </article>
-  <img class="event-img" src="<?php echo get_stylesheet_directory_uri() ?>/Linda-Events.webp" alt="billede">
+  <img class="event-img" src="<?php echo get_stylesheet_directory_uri() ?>/Linda-Events2.webp" alt="billede">
 </main>
 
 <?php

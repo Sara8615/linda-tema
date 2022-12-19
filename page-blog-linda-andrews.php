@@ -41,7 +41,7 @@ get_header(); ?>
    
     <img class="element_6" src="<?php echo get_stylesheet_directory_uri() ?>/banner-blog-bund-V.webp" alt="billede">
     <img class="element_7" src="<?php echo get_stylesheet_directory_uri() ?>/banner-bund-blog-midt.webp" alt="billede">
-    <img class="element_8" src="<?php echo get_stylesheet_directory_uri() ?>/bund-blog.webp" alt="billede">
+    <img class="element_8" src="<?php echo get_stylesheet_directory_uri() ?>/bund_blog.webp" alt="billede">
 
 </div>
    

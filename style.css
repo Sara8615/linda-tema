@@ -5,7 +5,19 @@ Version:      1.0.0
 Description:  ocean child theme
 Author:      shl
  */
-
+main {
+  margin: 0 auto;
+  max-width: none;
+  align-items: center;
+  margin: 12.5px;
+}
+.linda-logo {
+  max-width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
 iframe {
   pointer-events: none;
 }
@@ -32,7 +44,7 @@ iframe {
 
 .linda-logo-footer {
   width: 30rem;
-  margin-left: 80px;
+  margin-left: 6.25px;
 }
 
 .footerlogocon {
@@ -58,11 +70,10 @@ h1 {
   color: #291611;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
   text-decoration: underline;
 }
-
 h2 {
   font-family: "Caveat", cursive;
   font-weight: 700;
@@ -83,6 +94,78 @@ p {
   font-weight: 200;
   color: #bf5329;
   max-width: 65ch;
+}
+
+.socials {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  margin-top: 25px;*/
+  display: flex;
+  justify-content: center;
+  place-self: bottom;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  place-self: bottom;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facelogo {
+  width: 1rem;
+}
+.instalogo {
+  width: 1.4rem;
+}
+.spotlogo {
+  width: 1.4rem;
+}
+.ytlogo {
+  width: 1.4rem;
+}
+
+.f-titler {
+  justify-content: center;
+  text-align: center;
+  place-self: bottom;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f-titler-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.f-titler-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.f-p {
+  color: #291611;
+  font-size: 0.9rem;
+}
+.email {
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: none;
+  font-size: 1rem;
 }
 
 /*
@@ -128,9 +211,21 @@ font-family: 'Roboto Flex', sans-serif;
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 2.3rem;
+  }
+
+  p {
+    max-width: 65ch;
+  }
+
   /* hovedmenu grid*/
 
   .logomobilmenu {
@@ -174,13 +269,17 @@ font-family: 'Roboto Flex', sans-serif;
   li {
     list-style-type: none;
   }
+  .linda-logo-footer {
+    width: 30rem;
+    margin-left: 80px;
+  }
 
   .socials {
     display: flex;
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
-    margin-top: 50px;
+    margin-top: 6.25px;
   }
 
   footer grid .site-oversigt-liste {
@@ -268,6 +367,7 @@ font-family: 'Roboto Flex', sans-serif;
     margin-left: auto;
     margin-right: auto;
     max-width: none;
+    font-size: 2rem;
   }
 }
 
