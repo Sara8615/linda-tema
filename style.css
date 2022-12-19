@@ -52,6 +52,17 @@ body {
   max-width: 1000px;
 }
 
+h1 {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  color: #291611;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
+}
+
 h2 {
   font-family: "Caveat", cursive;
   font-weight: 700;
@@ -89,6 +100,10 @@ font-family: 'Roboto Flex', sans-serif;
 */
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
   .hovedmenu {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -165,6 +180,7 @@ font-family: 'Roboto Flex', sans-serif;
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+    margin-top: 50px;
   }
 
   footer grid .site-oversigt-liste {
