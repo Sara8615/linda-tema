@@ -290,6 +290,18 @@ font-family: 'Roboto Flex', sans-serif;
   overflow: scroll;
   display: none;
 }
+
+#popupsparring {
+  padding: 3rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: scroll;
+  display: none;
+}
 #popup article {
   width: 85vw;
   display: flex;

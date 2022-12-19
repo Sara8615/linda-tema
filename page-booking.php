@@ -15,12 +15,32 @@ get_header(); ?>
 
 
 <main>
+<!-- popupper display none -->
+<section id="popupsparring">
 
-<section id="popup">
+      <div id="luk">&#x2715</div>
+      <article class="popuparticle">
+        <h2 class="popuph2">1:1 Sparring</h2>
+        <h3>Pris</h3>
+        <p>tekst</p>
+      </article>
+    </section>
+
+    <section id="popup">
 
       <div id="luk">&#x2715</div>
       <article class="popuparticle">
         <h2 class="popuph2">Test</h2>
+        <h3>Pris</h3>
+        <p>tekst</p>
+      </article>
+    </section>
+
+    <section id="popup">
+
+      <div id="luk">&#x2715</div>
+      <article class="popuparticle">
+        <h2 class="popuph2">virker det</h2>
         <h3>Pris</h3>
         <p>tekst</p>
       </article>
@@ -142,7 +162,7 @@ og stemme coaching..</p>
 
 
       document.querySelector("#option").addEventListener("click", () => (popup.style.display = "block"));
-      document.querySelector("#luk").addEventListener("click", () => (popup.style.display = "none"));
+      document.querySelector("#luk").addEventListener("click", () => (popupsparring.style.display = "none"));
     </script>
 <?php
 get_footer();
