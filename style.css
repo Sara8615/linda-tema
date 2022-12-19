@@ -10,9 +10,24 @@ iframe {
   pointer-events: none;
 }
 
+.splash {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat (10, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
 .iframecon {
   overflow: hidden;
-  height: 700px;
+  grid-column: 1 / span 10;
+  grid-row: 1 / span 5;
+}
+
+.forside-socials {
+  grid-column: 10;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
 }
 
 .linda-logo-footer {
