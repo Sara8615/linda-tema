@@ -59,7 +59,7 @@
 .singlegrid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
+  /* border: 1px solid black; */
   padding: 10px;
 }
 
@@ -76,7 +76,7 @@
 .albumgrid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
+  /* border: 1px solid black; */
   padding: 10px;
 }
 
@@ -87,7 +87,7 @@
 .epgrid {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  border: 1px solid white;
+  /* border: 1px solid black; */
   padding: 10px;
 }
 
