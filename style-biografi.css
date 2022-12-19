@@ -19,12 +19,19 @@ Author:      shl
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    max-width: 120%;
+    margin-bottom: 50px;
   }
   .bio_overskrift {
     font-size: 2rem;
   }
   .citat {
-    font-size: 3rem;
+    font-size: 3.2rem;
     font-weight: 700;
+  }
+  .bio_billede_2 {
+    margin-left: -25px;
+  }
+  .bio_billede_3 {
   }
 }
