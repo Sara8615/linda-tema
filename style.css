@@ -10,15 +10,29 @@ iframe {
   pointer-events: none;
 }
 
+.splash {
+  display: grid;
+  height: 700px;
+  grid-template-columns: repeat (10, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
 .iframecon {
   overflow: hidden;
-  height: 700px;
+  grid-column: 1 / span 10;
+  grid-row: 1 / span 5;
+}
+
+.forside-socials {
+  grid-column: 10;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
 }
 
 .linda-logo-footer {
   width: 30rem;
-
-  background-color: black;
+  margin-left: 80px;
 }
 
 .footerlogocon {
@@ -36,6 +50,17 @@ body {
   /*background-color: #140115;*/
   margin: 0 auto;
   max-width: 1000px;
+}
+
+h1 {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  color: #291611;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: underline;
 }
 
 h2 {
@@ -102,6 +127,10 @@ font-family: 'Roboto Flex', sans-serif;
 }
 
 @media (min-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
   /* hovedmenu grid*/
 
   .logomobilmenu {
@@ -151,6 +180,7 @@ font-family: 'Roboto Flex', sans-serif;
     flex-direction: column;
     justify-content: right;
     align-items: flex-end;
+    margin-top: 50px;
   }
 
   .socialsbooking {

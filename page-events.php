@@ -12,6 +12,9 @@
 get_header(); ?>
 
 <main>
+
+  <h1> EVENTS </h1>
+  
   <div class="socials">
     <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
     <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-ig.svg" alt="instagram-icon"></a>
@@ -46,7 +49,7 @@ get_header(); ?>
       
     </div>
   </article>
-  <img class="event-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="billede">
+  <img class="event-img" src="<?php echo get_stylesheet_directory_uri() ?>/Linda-Events.webp" alt="billede">
 </main>
 
 <?php

@@ -22,12 +22,12 @@
 
 
 
-	<!-- kode til google fonte
+	<!--kode til google fonte-->
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
--->
+
 
 
 </head>
