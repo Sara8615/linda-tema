@@ -37,27 +37,32 @@
  <header>
       
       <nav class="navbar">
+		<div class="logomobilmenu">           
+				 <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-linda-logo.svg" alt="linda-logo"></a>
+		</div>
+
         <ul class="hovedmenu nav-menu">
-          <li>
+			
+          <li class="limenu">
             <a href="http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/discografy/">DISKOGRAFI</a>
           </li>
-          <li>
+          <li   class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
           </li>
-          <li>
+          <li  class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
           </li>
-		  <div class="logo">
+		<div class="logo limenu logodpnone">
             <a href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo" src="<?php echo get_stylesheet_directory_uri() ?>/orange-linda-logo.svg" alt="linda-logo"></a>
-      </div>
+      	</div>
 
-          <li>
+          <li class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
           </li>
-          <li>
+          <li class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/events/">EVENTS</a>
           </li>
-		  <li>
+		  <li class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
           </li>
         </ul>

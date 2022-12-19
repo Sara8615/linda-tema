@@ -6,6 +6,26 @@ Description:  ocean child theme
 Author:      shl
  */
 
+iframe {
+  pointer-events: none;
+}
+
+.iframecon {
+  overflow: hidden;
+  height: 700px;
+}
+
+.linda-logo-footer {
+  width: 30rem;
+
+  background-color: black;
+}
+
+.footerlogocon {
+  display: flex;
+  justify-content: center;
+}
+
 img {
   max-width: 100%;
 }
@@ -54,8 +74,39 @@ font-family: 'Caveat', cursive;
 font-family: 'Roboto Flex', sans-serif;
 */
 
+@media (max-width: 600px) {
+  .hovedmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 500px;
+  }
+
+  .limenu {
+    border: 1px solid black;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    list-style-type: none;
+  }
+
+  .logodpnone {
+    display: none;
+  }
+
+  .logomobilmenu {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media (min-width: 600px) {
   /* hovedmenu grid*/
+
+  .logomobilmenu {
+    display: none;
+  }
   .hovedmenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
@@ -102,22 +153,20 @@ font-family: 'Roboto Flex', sans-serif;
     align-items: flex-end;
   }
 
-  /* footer grid
-  .site-oversigt-liste {
+  footer grid .site-oversigt-liste {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     justify-content: center;
     margin: 10rem, 2rem, 10rem, 2rem;
     max-width: none;
   }
-  /* footer links
-  .footer a {
+  footer links .footer a {
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
     font-size: 1rem;
-    color: #BF5329;
+    color: #bf5329;
   }
-  /* coloner til footer
+  /* coloner til footer*/
   .col {
     display: flex;
     flex-direction: column;
@@ -225,3 +274,40 @@ font-family: 'Roboto Flex', sans-serif;
   display: none;
 } */
 /* } */
+
+.option :hover {
+  cursor: pointer;
+}
+
+#popup {
+  padding: 3rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: scroll;
+  display: none;
+}
+#popup article {
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  border: 4px solid;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#luk {
+  padding: 3rem;
+  position: fixed;
+  padding: auto;
+  cursor: pointer;
+  color: white;
+}
+
+.popuparticle {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}

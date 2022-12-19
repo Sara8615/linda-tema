@@ -11,7 +11,21 @@
 
 get_header(); ?>
 
+
+
+
 <main>
+
+<section id="popup">
+
+      <div id="luk">&#x2715</div>
+      <article class="popuparticle">
+        <h2 class="popuph2">Test</h2>
+        <h3>Pris</h3>
+        <p>tekst</p>
+      </article>
+    </section>
+
 
   <div class="socials">
   <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
@@ -22,7 +36,7 @@ get_header(); ?>
 
 <div class="booking-grid_1-1-1-1"> 
 
-<div class="option">
+<div id="option">
 <img class="option-img" src="<?php echo get_stylesheet_directory_uri() ?>/indset-billede" alt="1:1-sparring">
 <h3 class="titel">1:1 SPARING </h3>
 <h3 class="pris"> 750kr </h3>
@@ -92,6 +106,8 @@ og stemme coaching..</p>
       </article>
     </template>
 
+
+
     <script>
       const endpoint = "https://sarahduarte.dk/kea/10_eksamen/wp-json/wp/v2/option";
       
@@ -118,6 +134,15 @@ og stemme coaching..</p>
       }
 
       hentData();
+
+// document.querySelector(".option").addEventListener("click", () => visData);
+
+// function visData(){
+// popup.style.display=
+
+
+      document.querySelector("#option").addEventListener("click", () => (popup.style.display = "block"));
+      document.querySelector("#luk").addEventListener("click", () => (popup.style.display = "none"));
     </script>
 <?php
 get_footer();
