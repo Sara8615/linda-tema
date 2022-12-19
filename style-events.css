@@ -41,7 +41,14 @@ Author:      shl
 
   .dato {
     border-right: solid 3px;
+    border-bottom: none;
     text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+    font-size: 3rem;
+    margin-top: -30px;
   }
 
   .sted {
@@ -50,6 +57,6 @@ Author:      shl
   }
 
   .udsolgt {
-    margin-top: -20px;
+    margin-top: -10px;
   }
 }
