@@ -12,7 +12,7 @@
 get_header();
 ?>
 <main>
-<h1> DISCOGRAFI </h1>
+<h1> DISKOGRAFI </h1>
 
 
 <template>

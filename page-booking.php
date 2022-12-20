@@ -29,6 +29,7 @@ get_header(); ?>
         <h3>Tilbud!!</h3>
         <p>5 turs klippekort á 1 times online sparring 3.000,- (spar 250,-)</p>
         <p>10 turs klippekort á 1 times online sparring 7.000,- (spar 500,-)</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -48,6 +49,7 @@ get_header(); ?>
         <h3>Tilbud!!</h3>
         <p>5 turs klippekort á 1 times online sangcoaching til 3.500,- (spar 250,-)</p>
         <p>10 turs klippekort á 1 times online sangcoaching til 7.000,- (spar 500,-)</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -59,6 +61,7 @@ get_header(); ?>
         <h2 class="popuph2">Klippekort</h2>
         <h3>?</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -80,6 +83,7 @@ get_header(); ?>
         <p>Der kan undervises både på dansk, færøsk, norsk eller engelsk.</p>
         <h3>Tilbud!!</h3>
         <p>Hvis i ønsker flere gange kan jeg lave et godt tilbud til Jer!</p>
+       <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -97,7 +101,7 @@ get_header(); ?>
         <p>Obs……Skriv for pris!!!</p>
         <p>Vi aftaler sammen en dag og tidspunkt der passer jer.</p>
         <p>Oplagt som særlig gave til jeres medarbejdere eller forening.</p>
-
+  <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -116,6 +120,7 @@ get_header(); ?>
         <p>Obs……Skriv for pris!!!</p>
         <p>Vi aftaler sammen en dag og tidspunkt der passer jer.</p>
         <p>Oplagt som særlig gave til jeres medarbejdere eller forening.</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -130,7 +135,8 @@ get_header(); ?>
         Vi aftaler sammen hvilken sang + hilsen der være i videoen.</p>
       <p>Jeg sørger for at det bliver personligt og autentisk, og ikke mindst smukt.
          Sange som Amazing Grace, Lean on me, You’ve got a friend, Stand by me, Hallelujah osv. kan være med til at gøre dagen helt særlig; og husk en personlig optagelse med en sanghilsen holder meget længere en blomster. Oplagt som særlig gave til et familiemedlem eller én man ønsker at glæde med sin sang. </p>
-      </article>
+        <button class="booknuknap">BOOK NU</button>
+        </article>
     </section>
    
  

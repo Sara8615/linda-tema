@@ -27,6 +27,7 @@ get_header(); ?>
         <h3>Tilbud!!</h3>
         <p>5 turs klippekort á 1 times online sparring 3.000,- (spar 250,-)</p>
         <p>10 turs klippekort á 1 times online sparring 7.000,- (spar 500,-)</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -46,6 +47,7 @@ get_header(); ?>
         <h3>Tilbud!!</h3>
         <p>5 turs klippekort á 1 times online sangcoaching til 3.500,- (spar 250,-)</p>
         <p>10 turs klippekort á 1 times online sangcoaching til 7.000,- (spar 500,-)</p>
+        <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -57,7 +59,7 @@ get_header(); ?>
         <h2 class="popuph2">Klippekort</h2>
         <h3>?</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    
+      <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
@@ -79,7 +81,7 @@ get_header(); ?>
         <p>Der kan undervises både på dansk, færøsk, norsk eller engelsk.</p>
         <h3>Tilbud!!</h3>
         <p>Hvis i ønsker flere gange kan jeg lave et godt tilbud til Jer!</p>
-     
+       <button class="booknuknap">BOOK NU</button>
       </article>
     </section>
 
