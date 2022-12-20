@@ -15,6 +15,7 @@ get_header(); ?>
 
 
 <main>
+  <h1> BOOKING </h1>
 <!-- popupper display none -->
     <section id="popupsparring">
       <div id="luk">&#x2715</div>

@@ -8,6 +8,7 @@ Author:      shl
 
 @media (min-width: 600px) {
   /* grid til booking og coaching*/
+
   .booking-grid_1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,6 +18,7 @@ Author:      shl
     margin-right: auto;
     max-width: none;
     gap: 1rem;
+    margin-top: 100px;
   }
   .booking-grid_1-1-1 {
     display: grid;
@@ -28,6 +30,7 @@ Author:      shl
     max-width: 70%;
     gap: 1rem;
     margin-top: 3rem;
+    margin-top: 100px;
   }
 
   .option {
@@ -40,8 +43,9 @@ Author:      shl
     align-items: center;
     text-align: center;
     font-weight: 700;
-    border-bottom: solid 1px #291611;
+    border-bottom: solid 3px #291611;
     margin: auto;
+    max-width: 90%;
   }
 
   .pris {
@@ -54,6 +58,24 @@ Author:      shl
   }
   .beskrivelse {
     justify-content: left;
+  }
+
+  .option-titel {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: solid 3px #291611;
+    margin: auto;
+    max-width: 90%;
+  }
+  .option-pris {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

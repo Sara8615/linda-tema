@@ -13,6 +13,8 @@ get_header(); ?>
 
 <main>
 
+<h1> COACHING </h1>
+
 <section id="popupsparring1">
       <div id="luksparring1">&#x2715</div>
       <article class="popuparticlesparring1">
