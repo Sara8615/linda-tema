@@ -8,6 +8,98 @@ Author:      shl
 
 /* burger menu */
 
+@media (max-width: 600px) {
+
+  .logoburgermenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .logocontainer{
+    width: 10rem;
+    
+
+  }
+
+.linda-logo-burger{
+width: 10rem;
+display: grid;
+margin-left: auto;
+margin-right: auto;
+}
+.burgergrid{
+  display: flex;
+justify-content: center;
+}
+  .fa{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+
+  .burgerpunkt{
+     border: 1px solid black;
+  }
+
+  #logomobilmenu{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem; */
+   
+    /* align-items: center;
+    text-align: center; */
+    display: none;
+  }
+
+  #openclose{
+  padding: 3rem;
+  position: relative;
+  padding: auto;
+  cursor: pointer;
+  color: black;
+  }
+
+  .active{
+    display: none;
+  }
+
+  .navbar{
+    display: none;
+  }
+  /* #logomobilmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 500px;
+  } */
+
+  .limenu {
+    border: 1px solid black;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    list-style-type: none;
+  }
+
+  .logodpnone {
+    display: none;
+  }
+
+  /* .logomobilmenu {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  } */
+}
+
+@media (min-width:600px){
+  
+ /* .logomobilmenu {
+    display: none;
+  } */
+   .burger{
+    display: none;
+   }
 main {
   margin: 0 auto;
   max-width: none;
@@ -20,6 +112,7 @@ main {
   align-items: center;
   margin-right: auto;
   margin-left: auto;
+}
 }
 iframe {
   pointer-events: none;
@@ -185,33 +278,6 @@ font-family: 'Caveat', cursive;
 font-family: 'Roboto Flex', sans-serif;
 */
 
-@media (max-width: 600px) {
-  .hovedmenu {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-width: 500px;
-  }
-
-  .limenu {
-    border: 1px solid black;
-    text-align: center;
-    margin: 2rem;
-    padding: 2rem;
-    list-style-type: none;
-  }
-
-  .logodpnone {
-    display: none;
-  }
-
-  .logomobilmenu {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 @media (min-width: 600px) {
   h1 {
     font-size: 1.2rem;
@@ -228,12 +294,10 @@ font-family: 'Roboto Flex', sans-serif;
   p {
     max-width: 65ch;
   }
-
+}
   /* hovedmenu grid*/
 
-  .logomobilmenu {
-    display: none;
-  }
+ 
   .hovedmenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
@@ -265,7 +329,10 @@ font-family: 'Roboto Flex', sans-serif;
     color: #bf5329;
   }
   .linda-logo {
-    margin-left: -10px;
+    /* margin-left: -10px; */
+    display: grid;
+    align-self: center;
+    align-items: center;
   }
 
   /* fjerner punkt prikkerne i header og footer */
