@@ -77,7 +77,7 @@ Author:      shl
   #openclose {
     padding: 3rem;
     position: relative;
-    padding: auto;
+
     cursor: pointer;
     color: black;
   }
@@ -784,7 +784,7 @@ p {
 #luk {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -792,7 +792,7 @@ p {
 #luk2 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -800,7 +800,7 @@ p {
 #luk3 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -808,7 +808,7 @@ p {
 #luk4 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -816,7 +816,7 @@ p {
 #luk5 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -824,7 +824,7 @@ p {
 #luk6 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
+
   cursor: pointer;
   color: black;
 }
@@ -832,7 +832,6 @@ p {
 #luk7 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
   cursor: pointer;
   color: black;
 }
@@ -871,7 +870,6 @@ p {
 #luksparring1 {
   padding: 3rem;
   position: fixed;
-  padding: auto;
   cursor: pointer;
   color: black;
 }
