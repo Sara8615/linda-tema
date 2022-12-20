@@ -29,6 +29,17 @@ Author:      shl
   margin-bottom: 25px;
 }
 
+.element_3_img {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.element_3_img img {
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
 @media (min-width: 600px) {
   /* blog grid*/
   .blog_grid_1 {
