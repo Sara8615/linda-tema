@@ -108,7 +108,7 @@ nav#seniorholdmenu {
   margin-top: 1rem;
   margin-bottom: 1rem;
   max-width: 500px;
-  gap: 1rem;
+  gap: 5rem;
   border: none;
 }
 .filter {
@@ -285,5 +285,16 @@ main {
     font-size: 2.3rem;
     max-width: 65ch;
     text-align: center;
+  }
+  nav#seniorholdmenu {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 100px;
+    max-width: 500px;
+    gap: 20rem;
+    border: none;
   }
 }

@@ -43,7 +43,7 @@
 	<a class="logocontainer" href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo-burger" src="<?php echo get_stylesheet_directory_uri() ?>/orange-linda-logo.svg" alt="linda-logo"></a>
 	</div>
 		<div id="logomobilmenu" class="logoburgermenu">  
-				<a  class="burgerpunkt" href="http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/discografy/">DISKOGRAFI</a>
+				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/discografy/">DISKOGRAFI</a>
 				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
 				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
  				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>

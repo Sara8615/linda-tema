@@ -72,6 +72,18 @@ Author:      shl
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .element_3_img {
+    width: 100%;
+    aspect-ratio: 975/167.99;
+  }
+  .element_3_img img {
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    grid-column: 1 / span 2;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
   .element_4 {
     order: 1;
@@ -88,7 +100,7 @@ Author:      shl
     gap: 10px;
   }
   .element_8 {
-    max-height: 146.97px;
+    max-height: 150.96px;
     grid-column: 3 / span 2;
     grid-row: 1;
   }

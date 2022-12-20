@@ -12,7 +12,18 @@
 get_header();
 ?>
 <main>
+<<<<<<< HEAD
+<h1> DISCOGRAFI </h1>
+<div class="socials">
+   <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
+    <a href=https://www.instagram.com/lindaandrewsmusic><img class="instalogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-ig.svg" alt="instagram-icon"></a>
+    <a href=https://open.spotify.com/artist/3URBm5pWzuvoQ8lWiItKvM><img class="spotlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-spot.svg" alt="spotify-icon"></a>
+    <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-yt.svg" alt="youtube-icon"></a>
+    
+  </div> 
+=======
 <h1> DISKOGRAFI </h1>
+>>>>>>> 89fc24224f38d4f731560c9df1a2ae836fb409d1
 
 
 <template>

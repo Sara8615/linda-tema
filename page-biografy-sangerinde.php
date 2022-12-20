@@ -14,7 +14,6 @@ get_header(); ?>
 <main> 
 
 <h1> BIOGRAFI </h1>
-<img class="bio_billede_1" src="<?php echo get_stylesheet_directory_uri() ?>/banner-top-bio.webp" alt="fullwidth-img">
 <div class="socials">
   
     <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
@@ -23,6 +22,8 @@ get_header(); ?>
     <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-yt.svg" alt="youtube-icon"></a>
     
   </div>
+<img class="bio_billede_1" src="<?php echo get_stylesheet_directory_uri() ?>/banner-top-bio.webp" alt="fullwidth-img">
+
   <div class="biografi"> 
 <p class="bio_overskrift"> Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 
 45 BC
