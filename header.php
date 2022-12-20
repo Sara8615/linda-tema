@@ -55,7 +55,7 @@
         <ul class="hovedmenu nav-menu">
 			
           <li class="limenu">
-            <a href="http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/discografy/">DISKOGRAFI</a>
+            <a href="http://sarahduarte.dk/kea/10_eksamen/discografy/">DISKOGRAFI</a>
           </li>
           <li   class="limenu">
             <a href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
