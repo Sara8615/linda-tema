@@ -637,17 +637,11 @@ p {
     color: #291611;
   }*/
 
-<<<<<<< HEAD
-/* popuppere herunder */
+  /* popuppere herunder */
 
-.option :hover {
-  cursor: pointer;
-}
-=======
   .option :hover {
     cursor: pointer;
   }
->>>>>>> a3d75916f27662f916b6f9ea6cdf13f4d5e31fb0
 
   #popup {
     padding: 3rem;
