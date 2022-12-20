@@ -8,69 +8,61 @@ Author:      shl
 
 /* burger menu */
 
-
-
-
-@media (max-width: 600px){
-
-  
- #logomobilmenu{
+@media (max-width: 600px) {
+  #logomobilmenu {
     display: none;
   }
-  .logoburgermenu{
- display: flex;
- flex-direction: column;
- border: 1px solid #bf5329;
- padding-top: 1rem;
-
+  .logoburgermenu {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bf5329;
+    padding-top: 1rem;
   }
 
-  .logocontainer{
+  .logocontainer {
     width: 10rem;
   }
 
-  .column{
+  .column {
     display: flex;
     flex-direction: column;
   }
 
-.linda-logo-burger{
-width: 10rem;
-display: grid;
-margin-left: auto;
-margin-right: auto;
-}
-.burgergrid{
-  display: flex;
-justify-content: center;
-}
-  .fa{
+  .linda-logo-burger {
+    width: 10rem;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .burgergrid {
+    display: flex;
+    justify-content: center;
+  }
+  .fa {
     position: relative;
     top: 2rem;
     left: 50rem;
   }
 
-  .burgerpunkt{
-     padding: 2rem;
-     text-align: center;
-     color: #bf5329;
+  .burgerpunkt {
+    padding: 2rem;
+    text-align: center;
+    color: #bf5329;
   }
 
- 
-
-  #openclose{
-  padding: 3rem;
-  position: relative;
-  padding: auto;
-  cursor: pointer;
-  color: black;
+  #openclose {
+    padding: 3rem;
+    position: relative;
+    padding: auto;
+    cursor: pointer;
+    color: black;
   }
 
-  .active{
+  .active {
     display: none;
   }
 
-  .navbar{
+  .navbar {
     display: none;
   }
   /* #logomobilmenu {
@@ -99,82 +91,63 @@ justify-content: center;
   } */
 }
 
-@media (max-width: 550px){
-  .fa {
-    position: relative;
-    top: 2rem;
-    left: 41rem;
-  }
+/* fjerner punkt prikkerne i header og footer */
+li {
+  list-style-type: none;
+}
+.linda-logo-footer {
+  width: 90%;
+  margin-left: 6.26px;
 }
 
-
-@media (min-width:600px){
-  
- /* .logomobilmenu {
-    display: none;
-  } */
-   .burger{
-    display: none;
-   }
-main {
-  margin: 0 auto;
-  max-width: none;
-  align-items: center;
-  margin: 12.5px;
-}
-.linda-logo {
-  max-width: 60%;
+.socials {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  margin-top: 6.25px;
+  gap: 6.25px;*/
+  display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: auto;
+  place-self: bottom;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 6.25px;
+  max-width: none;
   margin-left: auto;
+  margin-right: auto;
 }
-}
-iframe {
-  pointer-events: none;
-}
-
-.splash {
-  display: grid;
-  height: 700px;
-  grid-template-columns: repeat (10, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-}
-.iframecon {
-  overflow: hidden;
-  grid-column: 1 / span 10;
-  grid-row: 1 / span 5;
-}
-
 .forside-socials {
   grid-column: 10;
   grid-row: 2;
   display: flex;
   flex-direction: column;
   justify-content: right;
+  place-self: center;
+}
+/* størrelse på individuelle iconer mobile */
+
+.facelogo {
+  width: 1rem;
+}
+.instalogo {
+  width: 1.4rem;
+}
+.spotlogo {
+  width: 1.4rem;
+}
+.ytlogo {
+  width: 1.4rem;
 }
 
-.linda-logo-footer {
-  width: 30rem;
-  margin-left: 6.25px;
-}
-
-.footerlogocon {
+.socialsbooking {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+  margin-top: 50px;
 }
-
-img {
-  max-width: 100%;
-}
-
-body {
-  /*background-color: #f3a789;*/
-  background-color: white;
-  /*background-color: #140115;*/
-  margin: 0 auto;
-  max-width: 1000px;
-}
+/* fonte */
 
 h1 {
   font-family: "Roboto Flex", sans-serif;
@@ -208,49 +181,117 @@ p {
   max-width: 65ch;
 }
 
-.socials {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: flex-end;
-  margin-top: 25px;*/
-  display: flex;
-  justify-content: center;
-  place-self: bottom;
-  gap: 25px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto;
-  position:fixed;
-  top:50px;
-  right:25px;
-}
-.footer-socials {
-  display: flex;
-  justify-content: center;
-  place-self: bottom;
-  gap: 25px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width: 550px) {
+  .fa {
+    position: relative;
+    top: 2rem;
+    left: 41rem;
+  }
 }
 
-.facelogo {
-  width: 1rem;
+@media (min-width: 600px) {
+  /* .logomobilmenu {
+    display: none;
+  } */
+  .burger {
+    display: none;
+  }
+  main {
+    margin: 0 auto;
+    max-width: none;
+    align-items: center;
+    margin: 12.5px;
+  }
+  /* logo øverst - link til forside */
+  .linda-logo {
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* video styling */
+  iframe {
+    pointer-events: none;
+  }
+
+  /* grid til video - placering af socials */
+  .splash {
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat (10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+  /* video fylder hele griddet */
+  .iframecon {
+    overflow: hidden;
+    grid-column: 1 / span 10;
+    grid-row: 1 / span 5;
+  }
+  /* særlige socials til forsiden (orange) + placering */
+
+  .forside-socials {
+    grid-column: 10;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    place-self: center;
+  }
+
+  /* signaturen i footeren */
+  .linda-logo-footer {
+    width: 30rem;
+    margin-left: 6.25px;
+  }
+
+  .footerlogocon {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  /*  SoMe iconer*/
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-self: bottom;
+    gap: 6.25px;
+    margin-bottom: 6.25px;
+    margin-top: -100px;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    /* top: 150px;
+    right: 25px;*/
+  }
+
+  /* SoMe iconer i orange til footeren */
+  .footer-socials {
+    display: flex;
+    justify-content: center;
+    place-self: bottom;
+    gap: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-.instalogo {
-  width: 1.4rem;
-}
-.spotlogo {
-  width: 1.4rem;
-}
-.ytlogo {
-  width: 1.4rem;
-}
+/* grid til titler i footeren i mobile  */
 
 .f-titler {
   justify-content: center;
@@ -268,6 +309,7 @@ p {
   font-size: 0.9rem;
 }
 
+/* placering af titlerne i mobile */
 .f-p-1 {
   grid-column: 1 / span 2;
   grid-row: 1;
@@ -300,23 +342,22 @@ p {
   margin-right: auto;
   max-width: none;
   font-size: 1rem;
+  color: #bf5329;
 }
-
-/*
-.bio_overskrift {
+.footer-socials {
+  display: flex;
   justify-content: center;
+  place-self: bottom;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 6.25px;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
 }
-.bio_text {
-  justify-content: center;
-}*/
-
-/* fonte
-
-font-family: 'Caveat', cursive;
-font-family: 'Roboto Flex', sans-serif;
-*/
 
 @media (min-width: 600px) {
+  /* fontstørrelser i web */
   h1 {
     font-size: 2rem;
     margin-top: 50px;
@@ -332,10 +373,9 @@ font-family: 'Roboto Flex', sans-serif;
   p {
     max-width: 65ch;
   }
-}
+
   /* hovedmenu grid*/
 
- 
   .hovedmenu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
@@ -344,7 +384,7 @@ font-family: 'Roboto Flex', sans-serif;
     margin-left: auto;
     margin-right: auto;
     max-width: none;
-padding: 1rem;
+    padding: 1rem;
   }
 
   header nav ul {
@@ -368,65 +408,16 @@ padding: 1rem;
     color: #bf5329;
   }
   .linda-logo {
-    /* margin-left: -10px; */
     display: grid;
     align-self: center;
     align-items: center;
   }
 
-  /* fjerner punkt prikkerne i header og footer */
-  li {
-    list-style-type: none;
-  }
+  /*  footer i web */
   .linda-logo-footer {
     width: 30rem;
     margin-left: 6.26px;
   }
-
-  .socials {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: flex-end;
-    margin-top: 6.25px;
-    gap: 6.25px;
-  }
-
-  .socialsbooking {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-end;
-    margin-top: 50px;
-  }
-
-  footer grid .site-oversigt-liste {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    justify-content: center;
-    margin: 10rem, 2rem, 10rem, 2rem;
-    max-width: none;
-  }
-  footer links .footer a {
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-    color: #bf5329;
-  }
-  /* coloner til footer*/
-  .col {
-    display: flex;
-    flex-direction: column;
-  }
-  /* ændre farven når musen kører over*/
-  a:hover {
-    color: #291611;
-  }
-  a:active {
-    text-decoration: underline;
-    color: #291611;
-  }
-
   .footer {
     margin-top: 100px;
   }
@@ -463,6 +454,8 @@ padding: 1rem;
     margin-right: auto;
     max-width: none;
   }
+
+  /* grid til footer i web  */
   .f-titler {
     display: grid;
     justify-content: center;
@@ -478,6 +471,7 @@ padding: 1rem;
     font-size: 1.2rem;
   }
 
+  /* størrelse på titler i web */
   .f-p-1 {
     grid-column: 1;
     grid-row: 1;
@@ -507,6 +501,34 @@ padding: 1rem;
     font-size: 2rem;
   }
 }
+
+/* gammel fotter 
+  footer grid .site-oversigt-liste {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    margin: 10rem, 2rem, 10rem, 2rem;
+    max-width: none;
+  }
+  footer links .footer a {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #bf5329;
+  }
+  /* coloner til footer
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ændre farven når musen kører over
+  a:hover {
+    color: #291611;
+  }
+  a:active {
+    text-decoration: underline;
+    color: #291611;
+  }*/
 
 .option :hover {
   cursor: pointer;
