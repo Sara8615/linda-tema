@@ -133,7 +133,6 @@ li {
   gap: 6.25px;*/
   display: flex;
   justify-content: center;
-  place-self: bottom;
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 6.25px;
@@ -186,7 +185,7 @@ iframe {
 .splash {
   display: grid;
   height: 700px;
-  grid-template-columns: repeat (10, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 1fr);
 }
 .iframecon {
@@ -274,7 +273,6 @@ p {
   margin-top: 25px;*/
   display: flex;
   justify-content: center;
-  place-self: bottom;
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -287,7 +285,6 @@ p {
 .footer-socials {
   display: flex;
   justify-content: center;
-  place-self: bottom;
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 25px;
@@ -327,7 +324,7 @@ p {
   .splash {
     display: grid;
     height: 700px;
-    grid-template-columns: repeat (10, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(5, 1fr);
   }
   /* video fylder hele griddet */
@@ -373,7 +370,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    place-self: bottom;
     gap: 6.25px;
     margin-bottom: 6.25px;
     margin-top: -100px;
@@ -389,7 +385,6 @@ p {
   .footer-socials {
     display: flex;
     justify-content: center;
-    place-self: bottom;
     gap: 25px;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -403,7 +398,6 @@ p {
 .f-titler {
   justify-content: center;
   text-align: center;
-  place-self: bottom;
   margin-bottom: 0px;
   margin-top: 25px;
   max-width: 100%;
@@ -454,7 +448,6 @@ p {
 .footer-socials {
   display: flex;
   justify-content: center;
-  place-self: bottom;
   gap: 25px;
   margin-bottom: 25px;
   margin-top: 6.25px;
@@ -531,7 +524,6 @@ p {
   .footer-socials {
     display: flex;
     justify-content: center;
-    place-self: bottom;
     gap: 1rem;
     margin-bottom: 10px;
     margin-top: 30px;
@@ -568,7 +560,6 @@ p {
     justify-content: center;
     text-align: center;
     grid-template-columns: repeat(5, 1fr);
-    place-self: bottom;
     margin-bottom: 0px;
     margin-top: 70px;
     max-width: 60%;
@@ -636,6 +627,8 @@ p {
     text-decoration: underline;
     color: #291611;
   }*/
+
+/* popuppere herunder */
 
 .option :hover {
   cursor: pointer;

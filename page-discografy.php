@@ -116,6 +116,9 @@ get_header();
     let categories;
      // kategorien "alle" har id'en 20
     let filterProjekter =19;
+
+
+    
     const caturl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/categories"
     const dburl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/projekt?per_page=100"
 
@@ -124,6 +127,11 @@ get_header();
     const catdata = await fetch(caturl);
     categories = await catdata.json();
     projekter = await data.json();
+
+
+
+
+
     console.log(categories);
     console.log(projekter);
     // const alleResult = categories.find((({slug}))=>slug ==="alle")
