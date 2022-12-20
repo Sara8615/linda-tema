@@ -6,6 +6,57 @@ Description:  ocean child theme
 Author:      shl
  */
 
+.option-img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.titel {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: solid 3px #291611;
+  margin: auto;
+  max-width: 90%;
+}
+
+.pris {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+}
+.beskrivelse {
+  justify-content: left;
+}
+
+.option-titel {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: solid 3px #291611;
+  margin: auto;
+  max-width: 90%;
+}
+.option-pris {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 600px) {
   /* grid til booking og coaching*/
 
