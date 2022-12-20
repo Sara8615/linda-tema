@@ -8,17 +8,30 @@ Author:      shl
 
 /* burger menu */
 
-@media (max-width: 600px) {
 
+
+
+@media (max-width: 600px){
+
+  
+ #logomobilmenu{
+    display: none;
+  }
   .logoburgermenu{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+ display: flex;
+ flex-direction: column;
+ border: 1px solid #bf5329;
+ padding-top: 1rem;
+
   }
 
   .logocontainer{
     width: 10rem;
-    
+  }
 
+  .column{
+    display: flex;
+    flex-direction: column;
   }
 
 .linda-logo-burger{
@@ -34,22 +47,16 @@ justify-content: center;
   .fa{
     position: relative;
     top: 2rem;
-    left: 2rem;
+    left: 50rem;
   }
 
   .burgerpunkt{
-     border: 1px solid black;
+     padding: 2rem;
+     text-align: center;
+     color: #bf5329;
   }
 
-  #logomobilmenu{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem; */
-   
-    /* align-items: center;
-    text-align: center; */
-    display: none;
-  }
+ 
 
   #openclose{
   padding: 3rem;
@@ -91,6 +98,15 @@ justify-content: center;
     justify-content: center;
   } */
 }
+
+@media (max-width: 550px){
+  .fa {
+    position: relative;
+    top: 2rem;
+    left: 41rem;
+  }
+}
+
 
 @media (min-width:600px){
   
@@ -328,6 +344,7 @@ font-family: 'Roboto Flex', sans-serif;
     margin-left: auto;
     margin-right: auto;
     max-width: none;
+padding: 1rem;
   }
 
   header nav ul {
