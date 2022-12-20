@@ -12,7 +12,6 @@
 get_header();
 ?>
 <main>
-<<<<<<< HEAD
 <h1> DISCOGRAFI </h1>
 <div class="socials">
    <a href=https://www.facebook.com/Misslindaandrews><img class="facelogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-fb.svg" alt="facebook-icon"></a>
@@ -21,9 +20,6 @@ get_header();
     <a href=https://www.youtube.com/channel/UCFNO91T6Ng-7tH3pdThaM9w><img class="ytlogo" src="<?php echo get_stylesheet_directory_uri() ?>/brun-yt.svg" alt="youtube-icon"></a>
     
   </div> 
-=======
-<h1> DISKOGRAFI </h1>
->>>>>>> 89fc24224f38d4f731560c9df1a2ae836fb409d1
 
 
 <template>
@@ -118,7 +114,7 @@ get_header();
     let filterProjekter =19;
 
 
-    
+
     const caturl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/categories"
     const dburl = "http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/wp-json/wp/v2/projekt?per_page=100"
 
