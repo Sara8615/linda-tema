@@ -38,18 +38,20 @@
     <div class="burger">
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
+	<div class="column">
 	<div class="burgergrid">		
 	<a class="logocontainer" href=https://sarahduarte.dk/kea/10_eksamen/forside><img class="linda-logo-burger" src="<?php echo get_stylesheet_directory_uri() ?>/orange-linda-logo.svg" alt="linda-logo"></a>
-
+	</div>
 		<div id="logomobilmenu" class="logoburgermenu">  
 				<a  class="burgerpunkt" href="http://www.listeportfolio.dk/kea/2-sem-eksamen/lindaandrews/discografy/">DISKOGRAFI</a>
 				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/blog/">BLOG</a>
 				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/biografy/">BIOGRAFI</a>
  				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/booking/">BOOKING</a>
   				<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/events/">EVENTS</a>
-    			<a class="burgerpunkt"  href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
+    			<a  class="burgerpunkt" href="https://sarahduarte.dk/kea/10_eksamen/coaching/">COACHING</a>
 		</div>
 </div>
+
 </div>
   		<nav class="navbar">
         <ul class="hovedmenu nav-menu">
@@ -79,6 +81,7 @@
         </ul>
 	
       </nav>
+
 	  	<script>
  	// document.querySelector("#openclose").addEventListener("click", () => (logomobilmenu.style.display = "block"));
 
@@ -95,10 +98,10 @@
 
 	function myFunction() {
   var x = document.getElementById("logomobilmenu");
-  if (x.style.display === "block") {
+  if (x.style.display === "flex") {
     x.style.display = "none";
   } else {
-    x.style.display = "block";
+    x.style.display = "flex";
   }
 }
 
